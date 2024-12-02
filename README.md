@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# Pet Adopt App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, evcil hayvanların sahiplenilmesine yardımcı olan bir uygulamadır. Kullanıcılar, evcil hayvanları görüntüleyebilir, favorilere ekleyebilir ve diğer kullanıcılarla iletişim kurabilir.
 
-## Get started
+## Başlarken
 
-1. Install dependencies
+### Gereksinimler
 
+- Node.js (v14 veya üstü)
+- Expo CLI
+
+### Kurulum
+
+1. Bağımlılıkları yükleyin:
    ```bash
-   npm install
-   ```
+   npm install   ```
 
-2. Start the app
-
+2. Uygulamayı başlatın:
    ```bash
-    npx expo start
-   ```
+   npx expo start   ```
 
-In the output, you'll find options to open the app in a
+### Uygulama Özellikleri
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Kullanıcılar, evcil hayvanları görüntüleyebilir ve detaylarına erişebilir.
+- Kullanıcılar, favori evcil hayvanlarını kaydedebilir.
+- Kullanıcılar, diğer kullanıcılarla sohbet edebilir.
+- Kullanıcılar, yeni evcil hayvanlar ekleyebilir.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Proje Yapısı
 
-## Get a fresh project
+- `app/`: Uygulama bileşenleri ve sayfaları.
+- `components/`: Yeniden kullanılabilir bileşenler.
+- `config/`: Firebase yapılandırması.
+- `constants/`: Uygulama genelinde kullanılan sabitler.
+- `Shared/`: Paylaşılan işlevler.
 
-When you're ready, run:
+## Lisans
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Bu proje MIT lisansı altında lisanslanmıştır.
